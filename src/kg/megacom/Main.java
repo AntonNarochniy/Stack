@@ -17,7 +17,7 @@ public class Main {
         carsStack.push(niva); // добавил машины в Stack
         carsStack.push(camry3_5); // добавил машины в Stack
         carsStack.push(landCruiser); // добавил машины в Stack
-        System.out.println(carsStack.toString());
+        System.out.println(carsStack.toString()); //распечатал
         carsStack.pop(); // удалил верхний элемент
         System.out.println(carsStack.peek().toString()); // нашел верхний элемент после удаления
         System.out.println(carsStack.search(odyssey)); // нашел позицию первого добавленного элемента
